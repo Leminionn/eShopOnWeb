@@ -89,7 +89,7 @@ jobs:
            
     # Deploy Azure WebApp using Bicep file
     - name: Deploy to Azure
-      uses: azure/arm-deploy@v3
+      uses: azure/arm-deploy@v2
       with:
         subscriptionId: ${{ env.SUBSCRIPTION-ID }}
         resourceGroupName: ${{ env.RESOURCE-GROUP }}
